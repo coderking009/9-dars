@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1350px;
+    height: 432px;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    background-color: dodgerblue;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+    padding: 30px 50px;
+    gap: 20px;
+}
+
+.box {
+    width: 300px;
+    height: 240px;
+    background-color: dodgerblue;
+}
+
+.title {
+    color: white;
+}
+
+.gap {
+    color: white;
+}
+
+.row {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: dodgerblue;
+    border-radius: 50% 50%;
+}
